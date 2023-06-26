@@ -1,0 +1,46 @@
+* {
+  font-family: "Ysabeau Infant";
+}
+
+.mobDiv {
+  width: 98%;
+  height: 320px;
+  position: relative;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px black;
+  border-radius: 10px;
+  margin: 10px;
+  background-image: linear-gradient(aqua 40%, blue 60%);
+}
+.mobDiv button,
+select {
+  height: 40px;
+}
+
+.mobDiv h2,
+button,
+select {
+  position: absolute;
+  left: 300px;
+  top: 0;
+}
+.mobDiv h2:nth-child(2) {
+  top: 50px;
+}
+.mobDiv h2:nth-child(3) {
+  top: 100px;
+}
+
+.mobDiv h2:nth-child(4) {
+  top: 150px;
+}
+.mobDiv h2:nth-child(5) {
+  top: 200px;
+}
+.mobDiv button {
+  top: 250px;
+  left: 400px;
+}
+.mobDiv select {
+  top: 250px;
+}
